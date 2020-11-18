@@ -4,6 +4,7 @@ import ContactHeader from "./ContactHeader";
 import IntroBackground from "./IntroBackground";
 import AboutLeisureWorld from "./AboutLeisureWorld";
 import Features from "./Features";
+import FourPanel from "./FourPanel";
 
 import Header from "./header";
 
@@ -15,6 +16,7 @@ function Layout({ children }) {
       <IntroBackground />
       <AboutLeisureWorld />
       <Features />
+      <FourPanel />
 
       <main className="flex-1 w-full max-w-7xl px-4 py-8 mx-auto md:px-8 md:py-16">
         {children}
