@@ -3,7 +3,7 @@ import Button from "./Button"
 
 export default function IntroBackground() {
   return (
-    <section className="h-screen m-0">
+    <section className="mb-24">
       <div className="hero-image">
         <div className="hero-text w-screen">
           <h1 className="text-4xl md:text-6xl leading-8">Discover</h1>

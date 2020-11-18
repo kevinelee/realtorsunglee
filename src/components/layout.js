@@ -3,6 +3,7 @@ import React from "react";
 import ContactHeader from "./ContactHeader";
 import IntroBackground from "./IntroBackground";
 import AboutLeisureWorld from "./AboutLeisureWorld";
+import Features from "./Features";
 
 import Header from "./header";
 
@@ -13,6 +14,7 @@ function Layout({ children }) {
       <Header />
       <IntroBackground />
       <AboutLeisureWorld />
+      <Features />
 
       <main className="flex-1 w-full max-w-7xl px-4 py-8 mx-auto md:px-8 md:py-16">
         {children}
