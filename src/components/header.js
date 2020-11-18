@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header className="bg-teal-700">
-      <div className="flex flex-wrap items-center justify-between max-w-7xl mx-auto py-8">
+      <div className="flex flex-wrap items-center justify-between max-w-7xl mx-auto py-8 px-2 md:px-0">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
             <svg
