@@ -4,7 +4,12 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
-
-.max-w-7xl{
+.max-w-7xl {
   max-width: 80rem;
 }
+
+/* .intro-background {
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)),
+    url("https://www.gannett-cdn.com/presto/2020/08/05/PNDN/5eafa3eb-816f-440f-b135-51bf36599a20-Romanzo_Interior_0809.jpg");
+} */
