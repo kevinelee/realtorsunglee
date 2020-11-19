@@ -7,10 +7,11 @@ import Features from "./Features";
 // import Banner from "./Banner"
 import BetterBanner from "./BetterBanner"
 // import FourPanel from "./FourPanel";
+// import TestFourPanel from "./testFourPanel"
 
 import Header from "./header";
 
-function Layout({ children }) {
+function Layout() {
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <ContactHeader />
@@ -19,12 +20,13 @@ function Layout({ children }) {
       <AboutLeisureWorld />
       <Features />
       <BetterBanner/>
+      {/* <TestFourPanel/> */}
       {/* <Banner firstLine="Do you like what you see?" secondLine="Contact us anytime!"/> */}
       {/* <FourPanel /> */}
-
+{/* 
       <main className="flex-1 w-full max-w-7xl px-4 py-8 mx-auto md:px-8 md:py-16">
         {children}
-      </main>
+      </main> */}
 
       <footer className="bg-blue-700">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">

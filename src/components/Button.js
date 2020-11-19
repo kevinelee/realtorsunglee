@@ -8,6 +8,7 @@ export default function Button({
   href,
   addClass,
   overallAddClass,
+  textColor = "text-white"
 }) {
   return (
     <div>
@@ -15,7 +16,7 @@ export default function Button({
         <div className={`rounded-md shadow cursor-pointer ${overallAddClass}`}>
           <a
             href={href}
-            className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white ${color} hover:${hoverColor} md:py-4 md:text-lg md:px-10 ${addClass}`}
+            className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md ${textColor} ${color} hover:${hoverColor} md:py-4 md:text-lg md:px-10 ${addClass}`}
           >
             {text}
           </a>
