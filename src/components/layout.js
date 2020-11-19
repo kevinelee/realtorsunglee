@@ -7,6 +7,7 @@ import Features from "./Features";
 // import Banner from "./Banner"
 import BetterBanner from "./BetterBanner"
 // import FourPanel from "./FourPanel";
+import TestFourPanel from "./testFourPanel"
 
 import Header from "./header";
 
@@ -19,6 +20,7 @@ function Layout({ children }) {
       <AboutLeisureWorld />
       <Features />
       <BetterBanner/>
+      <TestFourPanel/>
       {/* <Banner firstLine="Do you like what you see?" secondLine="Contact us anytime!"/> */}
       {/* <FourPanel /> */}
 
