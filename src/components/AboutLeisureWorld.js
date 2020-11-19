@@ -41,7 +41,20 @@ export default function AboutLeisureWorld() {
                 senior looking for a busy and satisfying life.
               </p>
 
-              <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
+              {/* <div className="mt-10 flex justify-center lg:justify-start">
+                <Button
+                  color="bg-indigo-600"
+                  hoverColor="bg-indigo-700"
+                  text="Get Started"
+                />
+                <Button
+                  color="text-indigo-600 bg-white"
+                  hoverColor="bg-gray-50"
+                  text="Live Demo"
+                  overallAddClass="ml-3"
+                />
+              </div> */}
+              <div className="flex">
                 <Button
                   color="bg-indigo-600"
                   hoverColor="bg-indigo-700"
