@@ -1,14 +1,28 @@
 import PropTypes from "prop-types";
 import React from "react";
+import ContactHeader from "./ContactHeader";
+import IntroBackground from "./IntroBackground";
+import AboutLeisureWorld from "./AboutLeisureWorld";
+import Features from "./Features";
+// import Banner from "./Banner"
+import BetterBanner from "./BetterBanner"
+// import FourPanel from "./FourPanel";
 
 import Header from "./header";
 
 function Layout({ children }) {
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
+      <ContactHeader />
       <Header />
+      <IntroBackground />
+      <AboutLeisureWorld />
+      <Features />
+      <BetterBanner/>
+      {/* <Banner firstLine="Do you like what you see?" secondLine="Contact us anytime!"/> */}
+      {/* <FourPanel /> */}
 
-      <main className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
+      <main className="flex-1 w-full max-w-7xl px-4 py-8 mx-auto md:px-8 md:py-16">
         {children}
       </main>
 
