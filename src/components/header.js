@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <header className="bg-gray-800">
-      <div className="flex flex-wrap items-center justify-between max-w-7xl mx-auto py-8 px-2 xl:px-0">
+      <div className="flex flex-wrap items-center justify-between max-w-7xl mx-auto py-8 px-4 xl:px-0">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
             <span className="text-xl font-bold tracking-tight">
