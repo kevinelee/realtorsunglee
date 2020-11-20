@@ -6,8 +6,18 @@ import AboutLeisureWorld from "./AboutLeisureWorld";
 import Features from "./Features";
 // import Banner from "./Banner"
 import BetterBanner from "./BetterBanner"
+import Footer from "./Footer"
 // import FourPanel from "./FourPanel";
 // import TestFourPanel from "./testFourPanel"
+
+console.log(ContactHeader);
+console.log(Header);
+console.log(IntroBackground);
+console.log(AboutLeisureWorld);
+console.log(Features);
+console.log(BetterBanner);
+console.log(Footer);
+
 
 import Header from "./header";
 
@@ -20,6 +30,8 @@ function Layout() {
       <AboutLeisureWorld />
       <Features />
       <BetterBanner/>
+      <Footer/>
+      
       {/* <TestFourPanel/> */}
       {/* <Banner firstLine="Do you like what you see?" secondLine="Contact us anytime!"/> */}
       {/* <FourPanel /> */}
@@ -28,7 +40,7 @@ function Layout() {
         {children}
       </main> */}
 
-      <footer className="bg-blue-700">
+      {/* <footer className="bg-blue-700">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-white">
             Created by{` `}
@@ -53,7 +65,7 @@ function Layout() {
             </a>
           </p>
         </nav>
-      </footer>
+      </footer> */}
     </div>
   );
 }

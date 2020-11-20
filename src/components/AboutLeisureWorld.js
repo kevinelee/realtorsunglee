@@ -41,19 +41,6 @@ export default function AboutLeisureWorld() {
                 senior looking for a busy and satisfying life.
               </p>
 
-              {/* <div className="mt-10 flex justify-center lg:justify-start">
-                <Button
-                  color="bg-indigo-600"
-                  hoverColor="bg-indigo-700"
-                  text="Get Started"
-                />
-                <Button
-                  color="text-indigo-600 bg-white"
-                  hoverColor="bg-gray-50"
-                  text="Live Demo"
-                  overallAddClass="ml-3"
-                />
-              </div> */}
               <div className="flex">
                 <Button
                   color="bg-indigo-600"
@@ -72,7 +59,7 @@ export default function AboutLeisureWorld() {
 
           <div className="hidden lg:block relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
             <img
-              className="absolute inset-0 w-full h-full object-contain"
+              className="absolute inset-0 w-full h-full object-contain rounded-lg"
               src="https://18lsmk37oon62f1yj323x36x-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/Entrance-to-Leisure-World-Seal-Beach.jpg"
               alt="Leisure World"
             />
