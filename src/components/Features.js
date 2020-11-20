@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Features() {
   return (
-    <div>
+    <section>
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-2 xl:px-0">
           <div className="lg:text-center">
@@ -151,6 +151,6 @@ export default function Features() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
