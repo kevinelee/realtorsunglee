@@ -9,7 +9,14 @@ import BetterBanner from "./BetterBanner"
 import Footer from "./Footer"
 // import FourPanel from "./FourPanel";
 // import TestFourPanel from "./testFourPanel"
-console.log('kevins Footer', Footer);
+
+console.log(ContactHeader);
+console.log(Header);
+console.log(IntroBackground);
+console.log(AboutLeisureWorld);
+console.log(Features);
+console.log(BetterBanner);
+console.log(Footer);
 
 
 import Header from "./header";
@@ -24,6 +31,7 @@ function Layout() {
       <Features />
       <BetterBanner/>
       <Footer/>
+      
       {/* <TestFourPanel/> */}
       {/* <Banner firstLine="Do you like what you see?" secondLine="Contact us anytime!"/> */}
       {/* <FourPanel /> */}
