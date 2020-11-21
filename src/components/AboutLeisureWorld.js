@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function AboutLeisureWorld() {
   return (
-    <section className="max-w-7xl mx-auto px-2 xl:px-0">
+    <section className="max-w-7xl mx-auto px-4 xl:px-0">
       {/* <div className="flex flex-col lg:flex-row">
         <img></img>
         <div>

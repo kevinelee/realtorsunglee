@@ -4,7 +4,7 @@ export default function Features() {
   return (
     <section>
       <div className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-2 xl:px-0">
+        <div className="max-w-7xl mx-auto px-4 xl:px-0">
           <div className="lg:text-center">
             <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
               Our Benefits

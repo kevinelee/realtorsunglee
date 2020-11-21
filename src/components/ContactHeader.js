@@ -7,7 +7,7 @@ export default function ContactHeader() {
   return (
     <section>
       <footer className="bg-gray-900">
-        <div className="max-w-screen-xl mx-auto md:flex md:items-center md:justify-end px-2 xl:px-0 py-2">
+        <div className="max-w-screen-xl mx-auto md:flex md:items-center md:justify-end px-4 xl:px-0 py-2">
           <div className="flex ml-4">
             <Email color="gray" />
             <a
@@ -28,7 +28,7 @@ export default function ContactHeader() {
           </div>
           <div className="flex ml-4">
             <Location color="gray" />
-            <p className="text-gray-500 ml-1 hover:text-gray-300">
+            <p className="text-gray-500 ml-1 hover:text-gray-300 cursor-pointer">
               Seal Beach, CA
             </p>
           </div>
