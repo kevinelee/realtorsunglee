@@ -28,7 +28,7 @@ export default function ContactHeader() {
           </div>
           <div className="flex ml-4">
             <Location color="gray" />
-            <p className="text-gray-500 ml-1 hover:text-gray-300">
+            <p className="text-gray-500 ml-1 hover:text-gray-300 cursor-pointer">
               Seal Beach, CA
             </p>
           </div>
