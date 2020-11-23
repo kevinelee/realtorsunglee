@@ -6,8 +6,8 @@ import Phone from "./SVG/Phone";
 export default function ContactHeader() {
   return (
     <section>
-      <footer className="bg-gray-900">
-        <div className="max-w-screen-xl mx-auto md:flex md:items-center md:justify-end px-4 xl:px-0 py-2">
+      <div className="hidden md:flex bg-gray-900 ">
+        <div className="max-w-screen-xl mx-auto md:flex md:items-center md:justify-end px-8 xl:px-0 py-2">
           <div className="flex ml-4">
             <Email color="gray" />
             <a
@@ -33,7 +33,7 @@ export default function ContactHeader() {
             </p>
           </div>
         </div>
-      </footer>
+      </div>
     </section>
   );
 }
